@@ -1,8 +1,35 @@
-Multi-PDF AI Chatbot with LangChain & OpenAI
+# 📚 MultiPDF Chat App
 
-An AI-powered chatbot that allows you to chat with multiple PDFs using natural language. Built with LangChain, OpenAI, and Streamlit.
+You can find the tutorial for this project on YouTube.
 
-Features
-- Chat with multiple PDFs
-- Uses OpenAI + LangChain
-- Streamlit web interface
+---
+
+## 🧠 Introduction
+
+The **MultiPDF Chat App** is a Python application that allows you to chat with **multiple PDF documents** using natural language. You can ask questions about the PDFs, and the app will provide accurate responses based on their content. It uses a language model (via OpenAI and LangChain) to generate intelligent answers.
+
+> ⚠️ The chatbot will only respond to questions related to the uploaded PDFs.
+
+---
+
+## 🔍 How It Works
+
+> MultiPDF Chat App - System Flow:
+
+1. **PDF Loading**: The app reads and extracts text from multiple PDF files.
+2. **Text Chunking**: The extracted text is divided into smaller, manageable chunks.
+3. **Embedding Generation**: A language model generates vector representations (embeddings) of the text chunks.
+4. **Similarity Matching**: Your question is compared to the embeddings to find the most relevant chunks.
+5. **Response Generation**: The selected content is passed to the language model to generate a natural language answer.
+
+---
+
+## ⚙️ Dependencies and Installation
+
+To install and run the MultiPDF Chat App, follow these steps:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/oussamalembarki/Multi-PDF-AI-Chatbot-with-LangChain-OpenAI-Streamlit-App.git
+cd Multi-PDF-AI-Chatbot-with-LangChain-OpenAI-Streamlit-App
