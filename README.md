@@ -27,3 +27,23 @@ To install and run the MultiPDF Chat App, follow these steps:
 ```bash
 git clone https://github.com/oussamalembarki/Multi-PDF-AI-Chatbot-with-LangChain-OpenAI-Streamlit-App.git
 cd Multi-PDF-AI-Chatbot-with-LangChain-OpenAI-Streamlit-App
+```
+2. **Install the required dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Set your OpenAI API key by creating a .env file in the root directory with:**
+
+   ```bash
+   OPENAI_API_KEY=your_secret_api_key
+   ```bash
+
+## Usage
+
+1. Make sure you've installed dependencies and added your API key to the .env file.
+2. Run the application using Streamlit.
+3. The app will launch in your default web browser.
+4. Upload multiple PDF documents.
+5. Ask questions in natural language using the chat interface.
